@@ -8,7 +8,7 @@
 * 16진수 : 0xFF, 0x0D, 0x0A
 #### 문자열  
 1.큰 따옴표 : "Hello World! it'\s"  
-2.작은 따옴표 : '뭉탱이로 왔다 유리게슝 아이그냥'  
+2.작은 따옴표 : '안녕하세요'  
 3.큰 따옴표 3 : """Hello!"""  
 4.작은 따옴표 4 : ''''대충 문장이 길면 작은 따옴표 4개 쓴다는 뜻''''  
 #### 변수
@@ -36,8 +36,8 @@ x,y,z="바나나","알러지","원숭이"
 print(x)
 print(y)
 print(z)
-japan_english=["마이 화자","마이 마자","마이 브라자"]
-x,y,z=japan_english
+fruit=["포도","사과","바나나"]
+x,y,z=fruit
 print(x)
 print(y)
 print(z)
