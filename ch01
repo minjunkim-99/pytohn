@@ -63,3 +63,13 @@ e=a%b #나머지
 f=a*b #곱셈
 g=a**b #제곱
 print(c,d,e,f,g)
+a = int(input("첫번째 숫자를 입력해주세요: "))
+b = int(input("두번째 숫자를 입력해주세요: "))
+result = a + b
+print(a, '+', b, '=')
+result = a - b
+print(a, '-', b, '=')
+result = a ** b
+print(a, '**', b, '=')
+result = a // b
+print(a, '//', b, '=')
