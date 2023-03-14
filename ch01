@@ -73,3 +73,23 @@ result = a ** b
 print(a, '**', b, '=', result)
 result = a // b
 print(a, '//', b, '=', result)
+num1 = input("숫자입력:")
+num2 = input("숫자입력:")
+result = num1 + num2
+print(type(num1))
+print(num1,'+', num2,'=',result)
+#### 전화번호, 이름 무게를 입력받아 출력:
+입력한 내용은 이름 "김민준",  
+전화번호 "010-4237-1537" 입니다.  
+무게는 입력한 g x 10원 = 산출 금액 출력
+a=input("전화번호를 입력해주세요 : ")
+b=input("이름을 입력해주세요 : ")
+c=int(input("무게를 입력해주세요 : "))
+d= "전화번호 : "
+e= "이름 : "
+f= "산출 금액: "
+g= "원"
+result = c*10
+print(d, a)
+print(e, b)
+print(f, result, g)
